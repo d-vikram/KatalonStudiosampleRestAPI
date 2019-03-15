@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivendemotest" time="9" tests="4" failures="0" errors="0">
+   <testsuite name="DataDrivendemotest" tests="4" failures="0" errors="0" time="9" timestamp="2019-03-15 13:39:46" hostname="UMA - LAPTOP-PTOLBIN0" id="Test Suites/DataDrivendemotest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\UMA\\Katalon Studio\\SampleRestAPITestingProject\\Reports\\DataDrivendemotest\\20190315_133940"/>
+         <property name="logFiles" value="C:\\Users\\UMA\\Katalon Studio\\SampleRestAPITestingProject\\Reports\\DataDrivendemotest\\20190315_133940\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="UMA - LAPTOP-PTOLBIN0"/>
+         <property name="hostAddress" value="192.168.1.182"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-03-15 13:39:46 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-03-15 13:39:46 - [TEST_STEP][PASSED] - println("Printing username " + Username): null
+
+2019-03-15 13:39:47 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebservices/CreateUser", ["username":Username])): Send request successfully
+
+2019-03-15 13:39:51 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\DataDrivendemotest\20190315_133940\requests\main\0.har
+
+2019-03-15 13:39:51 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-03-15 13:39:51 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-03-15 13:39:51 - [TEST_STEP][PASSED] - println("Printing username " + Username): null
+
+2019-03-15 13:39:51 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebservices/CreateUser", ["username":Username])): Send request successfully
+
+2019-03-15 13:39:52 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\DataDrivendemotest\20190315_133940\requests\main\1.har
+
+2019-03-15 13:39:52 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-03-15 13:39:52 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-03-15 13:39:52 - [TEST_STEP][PASSED] - println("Printing username " + Username): null
+
+2019-03-15 13:39:52 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebservices/CreateUser", ["username":Username])): Send request successfully
+
+2019-03-15 13:39:54 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\DataDrivendemotest\20190315_133940\requests\main\2.har
+
+2019-03-15 13:39:54 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-03-15 13:39:54 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-03-15 13:39:54 - [TEST_STEP][PASSED] - println("Printing username " + Username): null
+
+2019-03-15 13:39:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebservices/CreateUser", ["username":Username])): Send request successfully
+
+2019-03-15 13:39:55 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\DataDrivendemotest\20190315_133940\requests\main\3.har
+
+2019-03-15 13:39:55 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-15 13:39:46 - [TEST_SUITE][PASSED] - DataDrivendemotest: Test Cases/DataDrivenDemoTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

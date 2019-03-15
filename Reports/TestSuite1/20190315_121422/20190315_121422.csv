@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2019-03-15 12:14:26,2019-03-15 12:14:41,14.428s,PASSED
+,,,,,,
+Test Cases/APIChainingdemo,,,2019-03-15 12:14:28,2019-03-15 12:14:38,10.293s,PASSED
+"response1 = sendRequest(findTestObject(""RESTWebservices/ListUsers""))",,,2019-03-15 12:14:30,2019-03-15 12:14:36,5.987s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-03-15 12:14:36,2019-03-15 12:14:36,0.015s,PASSED
+result = slurper.parseText(response1.getResponseBodyContent()),,,2019-03-15 12:14:36,2019-03-15 12:14:36,0.079s,PASSED
+value = first_name,,,2019-03-15 12:14:36,2019-03-15 12:14:36,0.036s,PASSED
+"println("" Value extracted is  :"" + value)",,,2019-03-15 12:14:36,2019-03-15 12:14:36,0.023s,PASSED
+userName = value,,,2019-03-15 12:14:36,2019-03-15 12:14:36,0.187s,PASSED
+"println(""Global variable value:"" + userName)",,,2019-03-15 12:14:36,2019-03-15 12:14:36,0.003s,PASSED
+"sendRequestAndVerify(findTestObject(""RESTWebservices/UpdateUser"", [""userName"":userName]))",,,2019-03-15 12:14:36,2019-03-15 12:14:38,2.155s,PASSED
+,,,,,,
+Test Cases/sampletestone,,,2019-03-15 12:14:38,2019-03-15 12:14:41,2.752s,PASSED
+"sendRequest(findTestObject(""RESTWebservices/ListUsers""))",,,2019-03-15 12:14:39,2019-03-15 12:14:40,1.155s,PASSED
+"sendRequest(findTestObject(""RESTWebservices/CreateUser""))",,,2019-03-15 12:14:40,2019-03-15 12:14:41,1.029s,PASSED
