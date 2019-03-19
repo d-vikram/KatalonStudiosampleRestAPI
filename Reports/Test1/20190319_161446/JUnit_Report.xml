@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test1" time="20" tests="4" failures="0" errors="0">
+   <testsuite name="Test1" tests="4" failures="0" errors="0" time="20" timestamp="2019-03-19 16:14:52" hostname="UMA - LAPTOP-PTOLBIN0" id="Test Suites/Test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\UMA\\Katalon Studio\\SampleRestAPITestingProject\\Reports\\Test1\\20190319_161446"/>
+         <property name="logFiles" value="C:\\Users\\UMA\\Katalon Studio\\SampleRestAPITestingProject\\Reports\\Test1\\20190319_161446\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="UMA - LAPTOP-PTOLBIN0"/>
+         <property name="hostAddress" value="192.168.1.182"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/TesthhtpMethods" classname="Test Cases/TesthhtpMethods" status="PASSED">
+         <system-out><![CDATA[2019-03-19 16:14:52 - [TEST_CASE][PASSED] - Test Cases/TesthhtpMethods: Test Cases/TesthhtpMethods
+
+2019-03-19 16:14:53 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestservice/List Users")): Send request and verify the response successfully
+
+2019-03-19 16:15:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-19 16:15:05 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-19 16:15:05 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-19 16:15:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-19 16:15:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-19 16:15:05 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-19 16:15:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-19 16:15:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-19 16:15:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-19 16:15:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-19 16:15:05 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestservice/DeleteUser")): Send request successfully
+
+2019-03-19 16:15:06 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\0.har
+
+2019-03-19 16:15:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-19 16:15:06 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestservice/UpdateUser")): Send request successfully
+
+2019-03-19 16:15:06 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\1.har
+
+2019-03-19 16:15:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-19 16:15:06 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestservice/CreateUser")): Send request successfully
+
+2019-03-19 16:15:07 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\2.har
+
+2019-03-19 16:15:07 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sampletestone" classname="Test Cases/sampletestone" status="PASSED">
+         <system-out><![CDATA[2019-03-19 16:15:07 - [TEST_CASE][PASSED] - Test Cases/sampletestone: Test Cases/sampletestone
+
+2019-03-19 16:15:07 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebservices/ListUsers")): Send request successfully
+
+2019-03-19 16:15:08 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\3.har
+
+2019-03-19 16:15:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-19 16:15:08 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebservices/CreateUser")): Send request successfully
+
+2019-03-19 16:15:09 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\4.har
+
+2019-03-19 16:15:09 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListUsersTest" classname="Test Cases/ListUsersTest" status="PASSED">
+         <system-out><![CDATA[2019-03-19 16:15:09 - [TEST_CASE][PASSED] - Test Cases/ListUsersTest: Test Cases/ListUsersTest
+
+2019-03-19 16:15:09 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestservice/List Users")): Send request successfully
+
+2019-03-19 16:15:10 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\5.har
+
+2019-03-19 16:15:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-19 16:15:10 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestservice/List Users")): Send request and verify the response successfully
+
+2019-03-19 16:15:11 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", "6"): Verify element property value successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 3): Verify element count successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify element count successfully
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 100, 200): Verify response status code successfully
+
+2019-03-19 16:15:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GetBankDetails" classname="Test Cases/GetBankDetails" status="PASSED">
+         <system-out><![CDATA[2019-03-19 16:15:11 - [TEST_CASE][PASSED] - Test Cases/GetBankDetails: Test Cases/GetBankDetails
+
+2019-03-19 16:15:11 - [TEST_STEP][PASSED] - sendRequest(findTestObject("SOAP/getBank")): Send request successfully
+
+2019-03-19 16:15:12 - [MESSAGE][INFO] - HAR: C:\Users\UMA\Katalon Studio\SampleRestAPITestingProject\Reports\Test1\20190319_161446\requests\main\6.har
+
+2019-03-19 16:15:12 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-19 16:14:52 - [TEST_SUITE][PASSED] - Test1: Test Cases/GetBankDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test1,,,2019-03-19 16:14:52,2019-03-19 16:15:12,20.132s,PASSED
+,,,,,,
+Test Cases/TesthhtpMethods,,,2019-03-19 16:14:52,2019-03-19 16:15:07,14.587s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestservice/List Users""))",,,2019-03-19 16:14:53,2019-03-19 16:15:05,12.107s,PASSED
+"sendRequest(findTestObject(""UserRestservice/DeleteUser""))",,,2019-03-19 16:15:05,2019-03-19 16:15:06,0.999s,PASSED
+"sendRequest(findTestObject(""UserRestservice/UpdateUser""))",,,2019-03-19 16:15:06,2019-03-19 16:15:06,0.402s,PASSED
+"sendRequest(findTestObject(""UserRestservice/CreateUser""))",,,2019-03-19 16:15:06,2019-03-19 16:15:07,0.589s,PASSED
+,,,,,,
+Test Cases/sampletestone,,,2019-03-19 16:15:07,2019-03-19 16:15:09,2.131s,PASSED
+"sendRequest(findTestObject(""RESTWebservices/ListUsers""))",,,2019-03-19 16:15:07,2019-03-19 16:15:08,1.106s,PASSED
+"sendRequest(findTestObject(""RESTWebservices/CreateUser""))",,,2019-03-19 16:15:08,2019-03-19 16:15:09,0.821s,PASSED
+,,,,,,
+Test Cases/ListUsersTest,,,2019-03-19 16:15:09,2019-03-19 16:15:11,1.668s,PASSED
+"sendRequest(findTestObject(""UserRestservice/List Users""))",,,2019-03-19 16:15:09,2019-03-19 16:15:10,0.707s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestservice/List Users""))",,,2019-03-19 16:15:10,2019-03-19 16:15:11,0.621s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-03-19 16:15:11,2019-03-19 16:15:11,0.022s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,2019-03-19 16:15:11,2019-03-19 16:15:11,0.030s,PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-03-19 16:15:11,2019-03-19 16:15:11,0.047s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-03-19 16:15:11,2019-03-19 16:15:11,0.014s,PASSED
+,,,,,,
+Test Cases/GetBankDetails,,,2019-03-19 16:15:11,2019-03-19 16:15:12,1.278s,PASSED
+"sendRequest(findTestObject(""SOAP/getBank""))",,,2019-03-19 16:15:11,2019-03-19 16:15:12,1.082s,PASSED
